@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+#background{
+	overflow: hidden;
+	position: absolute;
+	width: 681px;
+	height: 160px;
+	z-index: 15;
+  	top: 50%;
+  	left: 50%;
+	margin: -80px 0 0 -340px;
+	background: url('oqk-logo.png') no-repeat;
+	/*border: 1px solid #f00;*/
+}
+
+#text{
+	margin: 130px 0 0 230px;
+	font-family:"Arial, Helvetica, sans-serif";
+	font-size: 20px;
+}
+
