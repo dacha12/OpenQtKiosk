@@ -2,10 +2,9 @@ TEMPLATE = app
 
 QT += qml quick webengine
 CONFIG += release
-
 SOURCES += main.cpp
-
 RESOURCES += qml.qrc
+CONFIG+="lang-fr_FR"
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
